@@ -1,35 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-	android:orientation="vertical" android:layout_width="match_parent"
-	android:layout_height="match_parent">
-	<ImageButton 
-		android:src="@drawable/icon"
-		android:layout_height="wrap_content" android:layout_width="wrap_content"
-		android:id="@+id/mode_button" android:layout_gravity="center" android:clickable="true" ></ImageButton>
+	android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+	<ImageButton android:layout_height="wrap_content"
+		android:src="@android:drawable/ic_media_play" android:id="@+id/mode_button"
+		android:layout_width="wrap_content" android:layout_gravity="center_horizontal"></ImageButton>
 	<TextView android:textAppearance="?android:attr/textAppearanceSmall"
 		android:layout_height="wrap_content" android:layout_width="wrap_content"
 		android:gravity="center_vertical|center_horizontal" android:id="@+id/mode_label"
-		android:text="mode" android:layout_gravity="center"></TextView>
-	<ImageButton android:src="@drawable/icon"
-		android:layout_height="wrap_content" android:layout_width="wrap_content"
-		android:id="@+id/build_tools_button" android:layout_gravity="center"></ImageButton>
+		android:text="edit" android:layout_gravity="center_horizontal"></TextView>
+	<ImageButton android:layout_height="wrap_content"
+		android:src="@android:drawable/ic_menu_manage" android:id="@+id/build_button"
+		android:layout_width="wrap_content" android:layout_gravity="center_horizontal"></ImageButton>
 	<TextView android:textAppearance="?android:attr/textAppearanceSmall"
 		android:layout_height="wrap_content" android:layout_width="wrap_content"
 		android:gravity="center_vertical|center_horizontal" android:id="@+id/build_label"
-		android:text="build" android:layout_gravity="center"></TextView>
-	<ImageButton android:src="@drawable/icon"
-		android:layout_height="wrap_content" android:layout_width="wrap_content"
-		android:id="@+id/snap_button" android:layout_gravity="center"></ImageButton>
+		android:text="build" android:layout_gravity="center_horizontal"></TextView>
+	<ImageButton android:layout_height="wrap_content"
+		android:src="@android:drawable/ic_partial_secure" android:id="@+id/snap_button"
+		android:layout_width="wrap_content" android:layout_gravity="center_horizontal"></ImageButton>
 	<TextView android:textAppearance="?android:attr/textAppearanceSmall"
-		android:layout_height="wrap_content" android:layout_width="wrap_content"
-		android:gravity="center_vertical|center_horizontal" android:id="@+id/snap_label"
-		android:text="snap" android:layout_gravity="center"></TextView>
-	<ImageButton android:src="@drawable/icon"
-		android:layout_height="wrap_content" android:layout_width="wrap_content"
-		android:id="@+id/grid_button" android:layout_gravity="center"></ImageButton>
+		android:layout_width="wrap_content" android:id="@+id/snap_button_label"
+		android:layout_height="wrap_content" android:text="snap" android:layout_gravity="center_horizontal"></TextView>
+	<ImageButton android:layout_height="wrap_content"
+		android:src="@android:drawable/ic_dialog_dialer" android:id="@+id/grid_button"
+		android:layout_width="wrap_content" android:layout_gravity="center_horizontal"></ImageButton>
 	<TextView android:textAppearance="?android:attr/textAppearanceSmall"
-		android:layout_height="wrap_content" android:layout_width="wrap_content"
-		android:gravity="center_vertical|center_horizontal" android:id="@+id/grid_label"
-		android:text="grid" android:layout_gravity="center"></TextView>
+		android:layout_width="wrap_content" android:id="@+id/grid_button_label"
+		android:layout_height="wrap_content" android:text="grid" android:layout_gravity="center_horizontal"></TextView>
 
 </LinearLayout>
